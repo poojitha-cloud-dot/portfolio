@@ -1,0 +1,41 @@
+<!-- registration/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Course Registration</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <main class="container">
+    <h1>Course Registration</h1>
+    <form id="regForm" method="post" action="register.php">
+      <label>
+        Full name
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+      <label>
+        Phone
+        <input type="tel" name="phone" pattern="[0-9]{10}" required />
+      </label>
+      <label>
+        Course
+        <select name="course" required>
+          <option value="">--Select--</option>
+          <option>Web Development</option>
+          <option>Data Science</option>
+          <option>Machine Learning</option>
+        </select>
+      </label>
+      <button type="submit">Register</button>
+    </form>
+
+    <p><a href="view.php">View Registered Students</a></p>
+  </main>
+</body>
+</html>

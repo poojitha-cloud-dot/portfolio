@@ -1,0 +1,6 @@
+/* registration/css/style.css */
+body{font-family:Arial,Helvetica,sans-serif;background:#f7fafc;color:#333}
+.container{max-width:600px;margin:2rem auto;background:#fff;padding:1.5rem;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+label{display:block;margin:.7rem 0}
+input,select{width:100%;padding:.6rem;margin-top:.3rem;border:1px solid #ddd;border-radius:6px}
+button{margin-top:1rem;padding:.6rem 1rem;border:none;border-radius:6px;background:#2b6cb0;color:#fff}
